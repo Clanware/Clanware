@@ -103,3 +103,10 @@ local data =
     local request_payload = {Url=url, Body=newdata, Method="POST", Headers=headers}
     http_request(request_payload)
 end
+
+local plr = game:GetService("Players").LocalPlayer
+local UIS = game:GetService("UserInputService")
+local IDS = {1}--Put ids in there
+if not table.find(IDS,plr.UserId) then
+  plr:Kick("Not Whitelisted")
+end
