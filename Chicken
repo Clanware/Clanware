@@ -1,6 +1,1 @@
-local plr = game:GetService("Players").LocalPlayer
-local UIS = game:GetService("UserInputService")
-local IDS = {2335048062}--Put ids in there
-if not table.find(IDS,plr.UserId) then
-  plr:Kick("Not Whitelisted")
-end
+
