@@ -1,6 +1,1 @@
-local plr = game:GetService("Players").LocalPlayer
-local UIS = game:GetService("UserInputService")
-local IDS = {1}--Put ids in there
-if not table.find(IDS,plr.UserId) then
-  plr:Kick("Not available at the moment.")
-end
+
